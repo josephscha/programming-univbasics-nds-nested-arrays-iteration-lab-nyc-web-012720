@@ -26,7 +26,6 @@ def find_greater_pair(src)
       new_array << src[row_index][0]
     else 
       new_array << src[row_index][1]
-      row_index += 1
     end
     return new_array
   end
