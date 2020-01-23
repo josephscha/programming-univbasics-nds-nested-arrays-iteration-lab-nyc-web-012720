@@ -25,6 +25,7 @@ def find_greater_pair(src)
     if src[row_index][1] < src[row_index][0]
       new_array << src[row_index][0]
     else 
+      new_array << src[row_index][1]
 end
 
 def total_even_pairs(src)
